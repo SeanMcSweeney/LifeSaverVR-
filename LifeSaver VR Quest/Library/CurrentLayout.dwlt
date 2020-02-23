@@ -116,7 +116,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 498}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 127
+  controlID: 36
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 498}
   m_MaxSize: {x: 10004, y: 14048}
   vertical: 1
-  controlID: 13
+  controlID: 49
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -358,9 +358,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: defbffff06400000
+      m_SelectedIDs: 963d0000
+      m_LastClickedID: 15766
+      m_ExpandedIDs: defbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -415,9 +415,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -16.826338, y: -46.225853, z: 471.82806}
+    m_Target: {x: -10.794299, y: -10.301569, z: 48.13498}
     speed: 2
-    m_Value: {x: -16.826338, y: -46.225853, z: 471.82806}
+    m_Value: {x: -10.794299, y: -10.301569, z: 48.13498}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -445,13 +445,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.05696056, y: 0.016471727, z: -0.00093957066, w: -0.9982401}
+    m_Target: {x: -0.17223582, y: 0.057589624, z: -0.010087255, w: -0.98331916}
     speed: 2
-    m_Value: {x: -0.05696056, y: 0.016471727, z: -0.00093957066, w: -0.9982401}
+    m_Value: {x: -0.17223582, y: 0.057589624, z: -0.010087255, w: -0.98331916}
   m_Size:
-    m_Target: 475.15735
+    m_Target: 74.518326
     speed: 2
-    m_Value: 475.15735
+    m_Value: 74.518326
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -527,20 +527,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Extra Assets/Instructions
+    - Assets/Extra Assets/Room Assets/Textures
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Extra Assets/Instructions
+  - Assets/Extra Assets/Room Assets/Textures
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\GitHub\LifeSaverVR-\LifeSaver VR Quest
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 88740000
-    m_LastClickedID: 29832
-    m_ExpandedIDs: 00000000222b00002a2b0000da2c000002310000c63600005a390000b8390000e2390000183a000000ca9a3b
+    m_SelectedIDs: 7e740000
+    m_LastClickedID: 29822
+    m_ExpandedIDs: 00000000222b00002a2b0000802c0000dc2c000006310000cc36000062390000c0390000ea390000203a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -568,7 +568,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000222b00002a2b0000da2c000002310000c63600005a390000b8390000e2390000183a0000
+    m_ExpandedIDs: 00000000222b00002a2b0000dc2c000006310000cc36000062390000c0390000ea390000203a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
