@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -116,7 +116,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 498}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 81
+  controlID: 107
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 498}
   m_MaxSize: {x: 10004, y: 14048}
   vertical: 1
-  controlID: 63
+  controlID: 120
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -358,23 +358,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3ce0ffff
-      m_LastClickedID: -8132
-      m_ExpandedIDs: 96dfffff98dfffffaadfffffacdfffffaedfffffb0dfffffb2dfffffb6dffffffadffffffcdfffff00e0ffff12e0ffff16e0ffffdefbffff
+      m_SelectedIDs: 0cf3ffff8eecffff8cecffff
+      m_LastClickedID: -4980
+      m_ExpandedIDs: defbfffff43d00004c3e0000603e0000663e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: rp_eric_rigged_001_yup_t
-        m_OriginalName: rp_eric_rigged_001_yup_t
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -8132
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 6}
       m_SearchString: 
@@ -415,9 +415,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.158319, y: 1.3536268, z: 5.1276836}
+    m_Target: {x: 1.5419228, y: 5.980647, z: 11.733539}
     speed: 2
-    m_Value: {x: 1.158319, y: 1.3536268, z: 5.1276836}
+    m_Value: {x: 1.5419228, y: 5.980647, z: 11.733539}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -445,13 +445,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.03204139, y: -0.51890767, z: -0.019468488, w: -0.8540077}
+    m_Target: {x: -0.06594365, y: -0.014966564, z: 0.0009896224, w: -0.9977106}
     speed: 2
-    m_Value: {x: 0.03204139, y: -0.51890767, z: -0.019468488, w: -0.8540077}
+    m_Value: {x: -0.06594366, y: -0.014966565, z: 0.0009896226, w: -0.99771065}
   m_Size:
-    m_Target: 8.274462
+    m_Target: 29.013731
     speed: 2
-    m_Value: 8.274462
+    m_Value: 29.013731
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -527,20 +527,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Extra Assets/Humanoid/In Suit/Animations
+    - Assets/Extra Assets/Room Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Extra Assets/Humanoid/In Suit/Animations
+  - Assets/Extra Assets/Room Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\GitHub\LifeSaverVR-\LifeSaver VR Quest
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: de500000
-    m_LastClickedID: 20702
-    m_ExpandedIDs: 00000000222b00002a2b000074300000163900007439000070430000764300008243000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 96470000
+    m_LastClickedID: 18326
+    m_ExpandedIDs: 00000000222b00002a2b0000d82c00007a3000003e360000d2380000303900005a3900009039000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -568,7 +568,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000222b00002a2b0000743000001639000074390000
+    m_ExpandedIDs: 00000000222b00002a2b0000d82c00007a3000003e360000303900005a39000090390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
