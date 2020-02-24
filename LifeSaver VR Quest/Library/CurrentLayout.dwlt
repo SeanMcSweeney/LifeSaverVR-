@@ -113,10 +113,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 713, y: 498}
-  m_MaxSize: {x: 18008, y: 14048}
+  m_MinSize: {x: 711, y: 498}
+  m_MaxSize: {x: 18006, y: 14048}
   vertical: 0
-  controlID: 36
+  controlID: 82
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,8 +136,8 @@ MonoBehaviour:
     y: 0
     width: 292
     height: 947
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 498}
   m_MaxSize: {x: 10004, y: 14048}
   vertical: 1
-  controlID: 37
+  controlID: 13
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -360,7 +360,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 06acffff74acffff96acffff9eacffff32c2ffffa0c2ffffc2c2ffffcac2ffff02c4ffff70c4ffff94c4ffff3ac7ffffc8d2ffff24dbffff92dbffffb4dbffffbcdbffffd6efffff44f0ffff66f0ffff6ef0ffff2cf5ffff9af5ffffbcf5ffff66f8ffffdefbffffee61000014640000a66600000ab90000c2bd0000
+      m_ExpandedIDs: dca6ffff4aa7ffff6ea7ffff06aaffff8ab7fffffab7ffff1cb8ffff24b8ffffc8b9ffff36baffff5abafffff2bcfffff2c9ffff60caffff84caffff1ecdffff76dafffffee0ffffcee9ffff3ceaffff60eaffff06edffffdefbffffa47e0000a82b01000c2c0100d22c0100442f0100cc720100108b0100748b01003c8c0100bc8e0100288f0100b48f010068e80100cce8010092e9010012ec010024ec010002ed0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -415,9 +415,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.6158094, y: -1.2980785, z: 9.604565}
+    m_Target: {x: -2.4482899, y: 0.7315434, z: 11.195982}
     speed: 2
-    m_Value: {x: -0.6158094, y: -1.2980785, z: 9.604565}
+    m_Value: {x: -2.4482899, y: 0.7315434, z: 11.195982}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -445,19 +445,19 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.22835279, y: -0.01022237, z: 0.0023977854, w: 0.9735218}
+    m_Target: {x: 0.07159753, y: -0.18296851, z: 0.013361828, w: 0.98041713}
     speed: 2
-    m_Value: {x: 0.2283528, y: -0.010222371, z: 0.0023977857, w: 0.9735219}
+    m_Value: {x: 0.07159753, y: -0.18296851, z: 0.013361828, w: 0.98041713}
   m_Size:
-    m_Target: 10.203269
+    m_Target: 11.734573
     speed: 2
-    m_Value: 10.203269
+    m_Value: 11.734573
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: -0.32552856, y: -0.052440498, z: -0.01808543, w: 0.9439036}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -516,7 +516,7 @@ MonoBehaviour:
     height: 354
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: pointer
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -526,21 +526,20 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/Extra Assets/Videos
+    m_Folders: []
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Extra Assets/Videos
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\GitHub\LifeSaverVR-\LifeSaver VR Quest
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 6a380000
-    m_LastClickedID: 14442
-    m_ExpandedIDs: 00000000222b00002a2b0000822c0000de2c000010310000dc36000076390000d6390000003a0000363a000000ca9a3b
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000222b00002a2b0000842c0000e02c0000ca2d0000163100004c360000e2360000a4370000703800007c390000dc390000063a00003c3a0000fc86000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -568,7 +567,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000222b00002a2b0000822c0000de2c000010310000dc36000076390000d6390000003a0000363a0000
+    m_ExpandedIDs: 00000000222b00002a2b0000842c0000e02c000016310000e23600007c390000dc390000063a00003c3a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
