@@ -1,7 +1,7 @@
+<img src="images/Menu Logo.png">
+
 # LifeSaver VR
 Final Year Project TUD DT211C
-
-<img src="images/Menu Logo.png">
 
 # What is LifeSaver VR
 
