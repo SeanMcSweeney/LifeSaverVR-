@@ -1,9 +1,13 @@
 # LifeSaver VR
 Final Year Project TUD DT211C
 
+<img src="images/Menu Logo.png">
+
 # What is LifeSaver VR
 
 LifeSaver is a VR simulation which focuses on training and testing users in the basic fundamentals of lifesaving. It is an immersive experience which utilises handtracking and mixed reality to give the user the best possible experience while training or while being tested. It features multiple different scenes each following the same process of scene safety follower by necessary lifesaving techniques.
+
+<img src="images/heartbeatlogonobg.png">
 
 ## Getting Started
 
