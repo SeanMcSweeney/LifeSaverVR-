@@ -1,4 +1,4 @@
-<img src="images/Menu Logo.png">
+<img src="images/Menu Logo.png" width="100" height="100">
 
 # LifeSaver VR
 Final Year Project TUD DT211C
@@ -15,5 +15,5 @@ To use LifeSaver in its full capacity the following is required.
 * VR Compatible System
 
 <p align="center">
-<img src="images/heartbeatlogonobg.png">
+<img src="images/heartbeatlogonobg.png" width="100" height="100">
 </p>
