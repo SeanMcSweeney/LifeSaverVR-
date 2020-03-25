@@ -1,4 +1,6 @@
+<p align="center">
 <img src="images/Menu Logo.png" width="300" height="300">
+</p>
 
 # LifeSaver VR
 Final Year Project TUD DT211C
