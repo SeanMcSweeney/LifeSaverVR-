@@ -17,8 +17,10 @@ public class Completion : MonoBehaviour
     void Start()
     {
         SceneNotSafeCheck();
+        Intro = true;
     }
     void SceneNotSafeCheck(){
+        // There is a 1/100 chance of the scene being not safe
         int a = Random.Range(1,10);
         int b = Random.Range(1,10);
 

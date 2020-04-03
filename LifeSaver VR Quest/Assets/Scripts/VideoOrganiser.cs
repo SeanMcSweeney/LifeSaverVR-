@@ -37,81 +37,49 @@ public class VideoOrganiser : MonoBehaviour
 
     void SceneSafetyVideo(){
             var videoPlayer = GameObject.Find("TV Right/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            var videoPlayer2 = GameObject.Find("TV Room/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            var videoPlayer3 = GameObject.Find("TV Room 2/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            videoClip = GameObject.Find("videos/FakeNews").GetComponent<UnityEngine.Video.VideoPlayer>().clip;
+            videoClip = GameObject.Find("videos/SceneSafety").GetComponent<UnityEngine.Video.VideoPlayer>().clip;
             videoPlayer.clip = videoClip;
-            videoPlayer2.clip = videoClip;
-            videoPlayer3.clip = videoClip;
     }
 
     void ShakeAndShoutVideo(){
             var videoPlayer = GameObject.Find("TV Right/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            var videoPlayer2 = GameObject.Find("TV Room/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            var videoPlayer3 = GameObject.Find("TV Room 2/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            videoClip = GameObject.Find("videos/FakeNews").GetComponent<UnityEngine.Video.VideoPlayer>().clip;
+            videoClip = GameObject.Find("videos/ShakeAndShout").GetComponent<UnityEngine.Video.VideoPlayer>().clip;
             videoPlayer.clip = videoClip;
-            videoPlayer2.clip = videoClip;
-            videoPlayer3.clip = videoClip;
     }
 
     void CheckForBreathingVideo(){
             var videoPlayer = GameObject.Find("TV Right/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            var videoPlayer2 = GameObject.Find("TV Room/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            var videoPlayer3 = GameObject.Find("TV Room 2/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            videoClip = GameObject.Find("videos/Compressions").GetComponent<UnityEngine.Video.VideoPlayer>().clip;
+            videoClip = GameObject.Find("videos/CheckBreathing").GetComponent<UnityEngine.Video.VideoPlayer>().clip;
             videoPlayer.clip = videoClip;
-            videoPlayer2.clip = videoClip;
-            videoPlayer3.clip = videoClip;
     }
 
     void CallForHelpVideo(){
             var videoPlayer = GameObject.Find("TV Right/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            var videoPlayer2 = GameObject.Find("TV Room/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            var videoPlayer3 = GameObject.Find("TV Room 2/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            videoClip = GameObject.Find("videos/Compressions").GetComponent<UnityEngine.Video.VideoPlayer>().clip;
+            videoClip = GameObject.Find("videos/CallForHelp").GetComponent<UnityEngine.Video.VideoPlayer>().clip;
             videoPlayer.clip = videoClip;
-            videoPlayer2.clip = videoClip;
-            videoPlayer3.clip = videoClip;
     }
 
     void OpenTheAirwayVideo(){
             var videoPlayer = GameObject.Find("TV Right/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            var videoPlayer2 = GameObject.Find("TV Room/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            var videoPlayer3 = GameObject.Find("TV Room 2/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            videoClip = GameObject.Find("videos/Compressions").GetComponent<UnityEngine.Video.VideoPlayer>().clip;
+            videoClip = GameObject.Find("videos/OpenTheAirway").GetComponent<UnityEngine.Video.VideoPlayer>().clip;
             videoPlayer.clip = videoClip;
-            videoPlayer2.clip = videoClip;
-            videoPlayer3.clip = videoClip;
     }
 
     void PerformCompressionsOnlyVideo(){
             var videoPlayer = GameObject.Find("TV Right/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            var videoPlayer2 = GameObject.Find("TV Room/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            var videoPlayer3 = GameObject.Find("TV Room 2/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
             videoClip = GameObject.Find("videos/Compressions").GetComponent<UnityEngine.Video.VideoPlayer>().clip;
             videoPlayer.clip = videoClip;
-            videoPlayer2.clip = videoClip;
-            videoPlayer3.clip = videoClip;
     }
 
     void PerformFullCPRVideo(){
             var videoPlayer = GameObject.Find("TV Right/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            var videoPlayer2 = GameObject.Find("TV Room/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            var videoPlayer3 = GameObject.Find("TV Room 2/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            videoClip = GameObject.Find("videos/Compressions").GetComponent<UnityEngine.Video.VideoPlayer>().clip;
+            videoClip = GameObject.Find("videos/FullCPR").GetComponent<UnityEngine.Video.VideoPlayer>().clip;
             videoPlayer.clip = videoClip;
-            videoPlayer2.clip = videoClip;
-            videoPlayer3.clip = videoClip;
     }
 
     void NoSceneVideo(){
             var videoPlayer = GameObject.Find("TV Right/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            var videoPlayer2 = GameObject.Find("TV Room/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
-            var videoPlayer3 = GameObject.Find("TV Room 2/Video/Panel/Video Player").GetComponent<UnityEngine.Video.VideoPlayer>();
             videoClip = GameObject.Find("videos/FakeNews").GetComponent<UnityEngine.Video.VideoPlayer>().clip;
             videoPlayer.clip = videoClip;
-            videoPlayer2.clip = videoClip;
-            videoPlayer3.clip = videoClip;
     }
 }

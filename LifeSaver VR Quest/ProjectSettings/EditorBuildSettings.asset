@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fail.unity
     guid: 473fbb68c0e6d7b409411d89759b4367
+  - enabled: 1
+    path: Assets/Scenes/LoadingScenes/LoadTest.unity
+    guid: 4fb05cb8ea3b7254984a682268e4cd70
   m_configObjects: {}

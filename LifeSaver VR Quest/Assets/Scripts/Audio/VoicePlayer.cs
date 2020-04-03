@@ -15,9 +15,45 @@ public class VoicePlayer : MonoBehaviour
     AudioSource CompressionsOnly;
     AudioSource RescueBreaths;
 
+    GameObject MusicGO;
+    GameObject WelcomeGO;
+    GameObject SceneSafeGO;
+    GameObject ResponsiveGO;
+    GameObject BreathingGO;
+    GameObject CallForHelpGO;
+    GameObject OpenAirwayGO;
+    GameObject CompressionsOnlyGO;
+    GameObject RescueBreathsGO;
+
     void Start()
     {
+        if (BGvolume <= 0){
+        BGvolume = 1;    
+        }
+        // set all gameobjects 
+        MusicGO = GameObject.Find("audio/HospitalAudio");
+        WelcomeGO = GameObject.Find("audio/Begin");
+        SceneSafeGO = GameObject.Find("audio/SceneSafe");
+        ResponsiveGO = GameObject.Find("audio/Responsive");
+        BreathingGO = GameObject.Find("audio/Breathing");
+        CallForHelpGO = GameObject.Find("audio/CallForHelp");
+        OpenAirwayGO = GameObject.Find("audio/OpenAirway");
+        CompressionsOnlyGO = GameObject.Find("audio/CompressionsOnly");
+        RescueBreathsGO = GameObject.Find("audio/RescueBreaths");
+
+        // set all Audio Sources
+        Music = MusicGO.GetComponent<AudioSource>();
+        Welcome = WelcomeGO.GetComponent<AudioSource>();
+        SceneSafe = SceneSafeGO.GetComponent<AudioSource>();
+        Responsive = ResponsiveGO.GetComponent<AudioSource>();
+        Breathing = BreathingGO.GetComponent<AudioSource>();
+        CallForHelp = CallForHelpGO.GetComponent<AudioSource>();
+        OpenAirway = OpenAirwayGO.GetComponent<AudioSource>();
+        CompressionsOnly = CompressionsOnlyGO.GetComponent<AudioSource>();
+        RescueBreaths = RescueBreathsGO.GetComponent<AudioSource>();
+
         BGMusic();
+        VoiceOff();
     }
 
     // Update is called once per frame
@@ -55,61 +91,79 @@ public class VoicePlayer : MonoBehaviour
     }
 
     void BGMusic(){
-        Music = GameObject.Find("audio/HospitalAudio").GetComponent<AudioSource>();
         PlayerPrefs.SetFloat("volume", BGvolume);
         Music.volume = PlayerPrefs.GetFloat("volume");
-        Music.Play(0);
+        Music.Play();
         Music.loop = true;
     }
 
+    void VoiceOff(){
+        WelcomeGO.SetActive(false);
+        SceneSafeGO.SetActive(false);
+        ResponsiveGO.SetActive(false);
+        BreathingGO.SetActive(false);
+        CallForHelpGO.SetActive(false);
+        OpenAirwayGO.SetActive(false);
+        CompressionsOnlyGO.SetActive(false);
+        RescueBreathsGO.SetActive(false);
+    }
+
     void WelcomeVoice(){
-        Welcome = GameObject.Find("audio/Welcome").GetComponent<AudioSource>();
         PlayerPrefs.SetFloat("volume", BGvolume);
         Welcome.volume = PlayerPrefs.GetFloat("volume");
-        Welcome.Play(0);
+        Welcome.priority = 160;
+        Welcome.playOnAwake = true;
+        WelcomeGO.SetActive(true);
     }
 
     void SceneSafetyVoice(){
-        SceneSafe = GameObject.Find("audio/SceneSafe").GetComponent<AudioSource>();
         PlayerPrefs.SetFloat("volume", BGvolume);
         SceneSafe.volume = PlayerPrefs.GetFloat("volume");
-        SceneSafe.Play(0);
+        SceneSafe.priority = 160;
+        SceneSafe.playOnAwake = true;
+        SceneSafeGO.SetActive(true);
     }
     void ShakeAndShoutVoice(){
-        Responsive = GameObject.Find("audio/Responsive").GetComponent<AudioSource>();
         PlayerPrefs.SetFloat("volume", BGvolume);
         Responsive.volume = PlayerPrefs.GetFloat("volume");
-        Responsive.Play(0);
+        Responsive.priority = 160;
+        Responsive.playOnAwake = true;
+        ResponsiveGO.SetActive(true);
     }
     void CheckForBreathingVoice(){
-        Breathing = GameObject.Find("audio/Breathing").GetComponent<AudioSource>();
         PlayerPrefs.SetFloat("volume", BGvolume);
         Breathing.volume = PlayerPrefs.GetFloat("volume");
-        Breathing.Play(0);
+        Breathing.priority = 160;
+        Breathing.playOnAwake = true;
+        BreathingGO.SetActive(true);
     }
     void CallForHelpVoice(){
-        CallForHelp = GameObject.Find("audio/CallForHelp").GetComponent<AudioSource>();
         PlayerPrefs.SetFloat("volume", BGvolume);
         CallForHelp.volume = PlayerPrefs.GetFloat("volume");
-        CallForHelp.Play(0);
+        CallForHelp.priority = 160;
+        CallForHelp.playOnAwake = true;
+        SceneSafeGO.SetActive(true);
     }
     void OpenTheAirwayVoice(){
-        OpenAirway = GameObject.Find("audio/OpenAirway").GetComponent<AudioSource>();
         PlayerPrefs.SetFloat("volume", BGvolume);
         OpenAirway.volume = PlayerPrefs.GetFloat("volume");
-        OpenAirway.Play(0);
+        OpenAirway.priority = 160;
+        OpenAirway.playOnAwake = true;
+        OpenAirwayGO.SetActive(true);
     }
     void PerformCompressionsOnlyVoice(){
-        CompressionsOnly = GameObject.Find("audio/CompressionsOnly").GetComponent<AudioSource>();
         PlayerPrefs.SetFloat("volume", BGvolume);
         CompressionsOnly.volume = PlayerPrefs.GetFloat("volume");
-        CompressionsOnly.Play(0);
+        CompressionsOnly.priority = 160;
+        CompressionsOnly.playOnAwake = true;
+        CompressionsOnlyGO.SetActive(true);
     }
     void PerformFullCPRVoice(){
-        RescueBreaths = GameObject.Find("audio/RescueBreaths").GetComponent<AudioSource>();
         PlayerPrefs.SetFloat("volume", BGvolume);
         RescueBreaths.volume = PlayerPrefs.GetFloat("volume");
-        RescueBreaths.Play(0);
+        RescueBreaths.priority = 160;
+        RescueBreaths.playOnAwake = true;
+        RescueBreathsGO.SetActive(true);
     }
 
     void VolChange(){

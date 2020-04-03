@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 // Change Scene to Test Scene
 public class TestSceneSwitch : MonoBehaviour
 {
+    string Test;
     void OnTriggerEnter(Collider other) {
-        SceneManager.LoadScene("Test", LoadSceneMode.Additive);
-        SceneManager.LoadScene("Test");
+        Test = "Test";
+        PlayerPrefs.SetString("SceneName", Test);
+        SceneManager.LoadScene("LoadTest", LoadSceneMode.Additive);
+        SceneManager.LoadScene("LoadTest");
     }
 }
