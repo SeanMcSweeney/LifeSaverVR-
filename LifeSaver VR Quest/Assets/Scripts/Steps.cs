@@ -7,7 +7,6 @@ using System;
 public class Steps : MonoBehaviour
 {
 
-    // Start is called before the first frame update
     void Update()
     {
     Completion completion = GameObject.Find("Completion").GetComponent<Completion>();
@@ -46,8 +45,6 @@ public class Steps : MonoBehaviour
     mytext.text = "Please Begin by Placing Your Hands On The Hands Icon ";
     Panels panel = GameObject.Find("Completion").GetComponent<Panels>();
     panel.IntroPanel();
-    Text yesnotext = GameObject.Find("YesNoPanel/YesNo/YesNo Canvas/YesNoChoices/Explained").GetComponent<Text>();
-    mytext.text = "Please Begin by Placing Your Hands On The Hands Icon ";
     }
     void SceneSafety()
     {

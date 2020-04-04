@@ -406,6 +406,8 @@
      <Compile Include="Assets\Scripts\FingerTrigger\TriggerManager.cs" />
      <Compile Include="Assets\Scripts\FloatingPickup.cs" />
      <Compile Include="Assets\Scripts\FloatingText.cs" />
+     <Compile Include="Assets\Scripts\ForPanel\No.cs" />
+     <Compile Include="Assets\Scripts\ForPanel\Yes.cs" />
      <Compile Include="Assets\Scripts\ForPanel\YesNoPanelText.cs" />
      <Compile Include="Assets\Scripts\FreeCam.cs" />
      <Compile Include="Assets\Scripts\LerpMenu.cs" />

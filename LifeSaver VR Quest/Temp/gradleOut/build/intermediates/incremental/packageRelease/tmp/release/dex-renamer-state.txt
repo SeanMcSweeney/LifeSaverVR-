@@ -1,0 +1,4 @@
+#Sat Apr 04 20:17:49 BST 2020
+base.0=F\:\\GitHub\\LifeSaverVR-\\LifeSaver VR Quest\\Temp\\gradleOut\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

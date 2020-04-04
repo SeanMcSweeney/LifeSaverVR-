@@ -16,7 +16,8 @@ public class Completion : MonoBehaviour
 
     void Start()
     {
-        SceneNotSafeCheck();
+        //SceneNotSafeCheck();
+        SceneNotSafe = false;
         Intro = true;
     }
     void SceneNotSafeCheck(){
