@@ -43,9 +43,11 @@ public class Steps : MonoBehaviour
     void Intro()
     {
     Text mytext = GameObject.Find("TV Middle/Text/Text").GetComponent<Text>();
-    mytext.text = "Scene Safety " + Environment.NewLine + "Please Ensure That The Scene is Safe " + Environment.NewLine + Environment.NewLine + "If The Scene Is Not Safe Press Not Safe On Your Menu";
+    mytext.text = "Please Begin by Placing Your Hands On The Hands Icon ";
     Panels panel = GameObject.Find("Completion").GetComponent<Panels>();
     panel.IntroPanel();
+    Text yesnotext = GameObject.Find("YesNoPanel/YesNo/YesNo Canvas/YesNoChoices/Explained").GetComponent<Text>();
+    mytext.text = "Please Begin by Placing Your Hands On The Hands Icon ";
     }
     void SceneSafety()
     {
@@ -100,8 +102,8 @@ public class Steps : MonoBehaviour
     void NoScene()
     {
     Text mytext = GameObject.Find("TV Middle/Text/Text").GetComponent<Text>();
-    mytext.text = "Loading Step...";
+    mytext.text = "";
     Panels panel = GameObject.Find("Completion").GetComponent<Panels>();
-    panel.SceneSafetyPanel();
+    panel.IntroPanel();
     }
 }
