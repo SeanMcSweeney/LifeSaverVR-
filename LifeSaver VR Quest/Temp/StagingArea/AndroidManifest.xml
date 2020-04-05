@@ -10,12 +10,11 @@
       </intent-filter>
       <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
     </activity>
-    <meta-data android:name="unity.build-id" android:value="47c98817-3bb6-450d-8283-d7e80d328727" />
+    <meta-data android:name="unity.build-id" android:value="09e2a110-259e-4d38-9736-18f3556201ba" />
     <meta-data android:name="unity.splash-mode" android:value="0" />
     <meta-data android:name="unity.splash-enable" android:value="False" />
   </application>
   <uses-feature android:glEsVersion="0x00020000" />
-  <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.CAMERA" />
   <uses-feature android:name="android.hardware.camera" android:required="false" />
