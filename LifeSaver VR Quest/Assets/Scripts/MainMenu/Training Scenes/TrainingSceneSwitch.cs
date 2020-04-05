@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-// Change Scene To Training Scene
+// Change Scene Template To Training Scene
+// Not Used
 public class TrainingSceneSwitch : MonoBehaviour
 {
+    string Test;
     void OnTriggerEnter(Collider other) {
-        SceneManager.LoadScene("Test", LoadSceneMode.Additive);
-        SceneManager.LoadScene("Test");
+        Test = "SceneSafetyTraining";
+        PlayerPrefs.SetString("SceneName", Test);
+        SceneManager.LoadScene("LoadTraining", LoadSceneMode.Additive);
+        SceneManager.LoadScene("LoadTraining");
     }
 }

@@ -421,6 +421,7 @@
      <Compile Include="Assets\Scripts\LevelScripts\ShakeChecker.cs" />
      <Compile Include="Assets\Scripts\LoadingScenes\LoadSceneText.cs" />
      <Compile Include="Assets\Scripts\LoadingScenes\LoadTest.cs" />
+     <Compile Include="Assets\Scripts\LoadingScenes\LoadTraining.cs" />
      <Compile Include="Assets\Scripts\MainMenu\AudioSlider.cs" />
      <Compile Include="Assets\Scripts\MainMenu\BackToMenu.cs" />
      <Compile Include="Assets\Scripts\MainMenu\ChangeMixer.cs" />
@@ -443,6 +444,11 @@
      <Compile Include="Assets\Scripts\Score.cs" />
      <Compile Include="Assets\Scripts\ScriptsForProblems\TriggerDelay.cs" />
      <Compile Include="Assets\Scripts\Steps.cs" />
+     <Compile Include="Assets\Scripts\Training\SceneSafetyTraining\CompletionTraining.cs" />
+     <Compile Include="Assets\Scripts\Training\SceneSafetyTraining\NoSS.cs" />
+     <Compile Include="Assets\Scripts\Training\SceneSafetyTraining\Retry.cs" />
+     <Compile Include="Assets\Scripts\Training\SceneSafetyTraining\YesNoPanelSS.cs" />
+     <Compile Include="Assets\Scripts\Training\SceneSafetyTraining\YesSS.cs" />
      <Compile Include="Assets\Scripts\TurnOnCam.cs" />
      <Compile Include="Assets\Scripts\VideoOrganiser.cs" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_PC_SingleComponent.shader" />
