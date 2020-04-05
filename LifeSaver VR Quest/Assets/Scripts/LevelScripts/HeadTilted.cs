@@ -1,18 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+// Checks if the airway has been opened
 public class HeadTilted : MonoBehaviour
 {
-    // Start is called before the first frame update
+    Completion completion;
+    GameObject Head;
+    OVRGrabbable HeadG;
     void Start()
     {
-        
+        completion = GameObject.Find("Completion").GetComponent<Completion>();
+        Head = GameObject.Find("rp_eric_rigged_001_yup_t/root/hip/spine_01/spine_02/spine_03/neck/head");
+        HeadG = Head.GetComponent<OVRGrabbable>();
     }
-
-    // Update is called once per frame
     void Update()
     {
-        
+        if (completion.OpenTheAirway == true){
+            if (HeadG.isGrabbed){
+            completion.OpenTheAirway = false;
+            completion.PerformFullCPR = true;
+            }
+        }
     }
 }

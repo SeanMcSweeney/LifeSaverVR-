@@ -113,10 +113,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 711, y: 398}
-  m_MaxSize: {x: 18006, y: 14048}
+  m_MinSize: {x: 713, y: 374}
+  m_MaxSize: {x: 18008, y: 14024}
   vertical: 0
-  controlID: 115
+  controlID: 24
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,8 +136,8 @@ MonoBehaviour:
     y: 0
     width: 316
     height: 947
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -164,10 +164,10 @@ MonoBehaviour:
     y: 0
     width: 1198
     height: 947
-  m_MinSize: {x: 234, y: 398}
-  m_MaxSize: {x: 10004, y: 14048}
+  m_MinSize: {x: 234, y: 374}
+  m_MaxSize: {x: 10004, y: 14024}
   vertical: 1
-  controlID: 30
+  controlID: 25
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,8 +187,8 @@ MonoBehaviour:
     y: 0
     width: 1198
     height: 525
-  m_MinSize: {x: 104, y: 124}
-  m_MaxSize: {x: 4004, y: 4024}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
@@ -438,9 +438,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0a2e0000
+      m_SelectedIDs: e82a0000
       m_LastClickedID: 0
-      m_ExpandedIDs: e2e2ffff94e3ffff0ee5ffff1ef7ffff96f7ffffbcf7ffff84faffff94faffffa4faffffb4faffffc2faffff08fbffffdefbffff00d6000044d60000f4de0000d4e10000c215020088180200a6180200101d0200121d02001c1d0200c81e0200
+      m_ExpandedIDs: defbffffc04900000e4f0000a24f0000be4f0000c24f0000ce4f0000da4f0000e64f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -528,20 +528,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts/LevelScripts
   m_ViewMode: 1
   m_StartGridSize: 54
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts/LevelScripts
   m_LastFoldersGridSize: 54
   m_LastProjectPath: F:\GitHub\LifeSaverVR-\LifeSaver VR Quest
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: dc2e0000
-    m_LastClickedID: 11996
-    m_ExpandedIDs: 00000000d02b0000862c0000dc2e0000483700006a37000000ca9a3b
+    m_SelectedIDs: fe380000
+    m_LastClickedID: 14590
+    m_ExpandedIDs: 00000000dc2b0000942c0000ea2e00005a3700007c37000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -569,7 +569,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d02b0000862c0000
+    m_ExpandedIDs: 00000000dc2b0000942c0000ea2e00005a3700007c370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

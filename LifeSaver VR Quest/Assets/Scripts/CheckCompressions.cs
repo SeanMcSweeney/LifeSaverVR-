@@ -7,11 +7,18 @@ using System;
 // Check for Compressions
 public class CheckCompressions : MonoBehaviour
 {
+    Completion completion;
+    CompressionCounter CC;
+    public int counterCompressions;
+    public int rateofCompressions;
+    void Start(){
+        completion = GameObject.Find("Completion").GetComponent<Completion>();
+        CC = GameObject.Find("Completion").GetComponent<CompressionCounter>();
+    }
     void OnTriggerEnter(Collider other)
     {
-        Completion completion = GameObject.Find("Completion").GetComponent<Completion>();
         if (completion.PerformFullCPR == true){
-        //Debug("Entered");
+        counterCompressions += 1;
         }
         else if (completion.PerformCompressionsOnly == true){
         //Debug("Entered");

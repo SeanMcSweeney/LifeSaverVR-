@@ -16,7 +16,7 @@ public class CallEMS : MonoBehaviour
         if (completion.CallForHelp == true){
             sfx.PlayPhone();
             completion.CallForHelp = false;
-            completion.SceneSafety = true;
+            completion.OpenTheAirway = true;
         }
     }
 
