@@ -384,6 +384,8 @@
      <Compile Include="Assets\Project\Scripts\Pointer.cs" />
      <Compile Include="Assets\Project\Scripts\VRInputModule.cs" />
      <Compile Include="Assets\Scripts\Audio\AudioDown.cs" />
+     <Compile Include="Assets\Scripts\Audio\AudioPlayerCongrats.cs" />
+     <Compile Include="Assets\Scripts\Audio\AudioPlayerFail.cs" />
      <Compile Include="Assets\Scripts\Audio\AudioPlayerMainMenu.cs" />
      <Compile Include="Assets\Scripts\Audio\AudioPlayerTest.cs" />
      <Compile Include="Assets\Scripts\Audio\AudioUp.cs" />
@@ -391,10 +393,10 @@
      <Compile Include="Assets\Scripts\Audio\SFXPlayer.cs" />
      <Compile Include="Assets\Scripts\Audio\StopMusic.cs" />
      <Compile Include="Assets\Scripts\Audio\VoicePlayer.cs" />
-     <Compile Include="Assets\Scripts\CallEmergency.cs" />
      <Compile Include="Assets\Scripts\CheckCompressions.cs" />
      <Compile Include="Assets\Scripts\Completion.cs" />
      <Compile Include="Assets\Scripts\Congrats.cs" />
+     <Compile Include="Assets\Scripts\CongratsAnimations.cs" />
      <Compile Include="Assets\Scripts\Debugger.cs" />
      <Compile Include="Assets\Scripts\EnableSceneSafety.cs" />
      <Compile Include="Assets\Scripts\Fail.cs" />

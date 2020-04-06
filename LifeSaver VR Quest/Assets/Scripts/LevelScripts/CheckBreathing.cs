@@ -1,18 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+// Check for Breathing
 public class CheckBreathing : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    Completion completion;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void Start(){
+        completion = GameObject.Find("Completion").GetComponent<Completion>();
+
+    }
+    void OnTriggerEnter(Collider other) {
+        if (completion.CheckForBreathing == true){
+            completion.CheckForBreathing = false;
+            completion.CallForHelp = true;
+        }
     }
 }

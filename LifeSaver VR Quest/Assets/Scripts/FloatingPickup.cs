@@ -7,6 +7,7 @@ public class FloatingPickup : MonoBehaviour
     Transform icon;
     Transform human;
     Transform phone;
+    Transform handicon;
     Transform placement;
     Vector3 placementypos;
     Vector3 iconpos;
@@ -17,6 +18,7 @@ public class FloatingPickup : MonoBehaviour
     {
         icon = GetComponent<Transform>();
         human = GameObject.Find("rp_eric_rigged_001_yup_t").GetComponent<Transform>();
+        handicon = GameObject.Find("HandIntro").GetComponent<Transform>();
         phone = GameObject.Find("Phone").GetComponent<Transform>();
     }
 
@@ -56,10 +58,9 @@ public class FloatingPickup : MonoBehaviour
 
     void IntroIcon(){
         // gets the transforms and places the icon
-        icon.position = human.position;
+        icon.position = handicon.position;
         placementypos = icon.position;
         placementypos.y += 0.2f;
-        placementypos.x -= 1.2f;
         icon.position = placementypos;
     }
 

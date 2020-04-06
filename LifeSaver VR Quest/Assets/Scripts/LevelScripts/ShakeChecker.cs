@@ -7,6 +7,7 @@ public class ShakeChecker : MonoBehaviour
     GameObject ShoulderLeft;
     GameObject ShoulderRight;
     float counter;
+    Completion completion;
     void Start()
     {
         ShoulderLeft = GameObject.Find("Level/rp_eric_rigged_001_yup_t/root/hip/spine_01/spine_02/spine_03/shoulder_l");
@@ -21,7 +22,14 @@ public class ShakeChecker : MonoBehaviour
             counter++;
         }
         if (counter <= 2){
-            Completion completion = GameObject.Find("Completion").GetComponent<Completion>();
+            completion = GameObject.Find("Completion").GetComponent<Completion>();
+            completion.ShakeAndShout = false;
+            completion.CheckForBreathing = true;
+        }
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if (completion.ShakeAndShout == true){
             completion.ShakeAndShout = false;
             completion.CheckForBreathing = true;
         }

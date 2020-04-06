@@ -51,11 +51,11 @@ public class FloatingText : MonoBehaviour
         text.position = human.position;
         placementypos = text.position;
         placementypos.y += 1;
-        placementypos.x -= 2;
+        placementypos.x -= 1;
         text.position = placementypos;
 
         // Text Attributes
-        floattxt.text = "If the scene is safe place your hands on the icon below";
+        floattxt.text = "Place your hands on the icon below to begin";
         floattxt.color = Color.red;
 
     }
@@ -65,7 +65,7 @@ public class FloatingText : MonoBehaviour
         text.position = human.position;
         placementypos = text.position;
         placementypos.y += 1;
-        placementypos.x -= 2;
+        placementypos.x -= 1;
         text.position = placementypos;
 
         // Text Attributes
@@ -79,11 +79,11 @@ public class FloatingText : MonoBehaviour
         text.position = human.position;
         placementypos = text.position;
         placementypos.y += 1;
-        placementypos.x -= 2;
+        placementypos.x -= 1;
         text.position = placementypos;
 
         // Text Attributes
-        floattxt.text = "If the scene is safe place your hands on the icon below";
+        floattxt.text = "Shake and Shout at the victim to check for a response";
         floattxt.color = Color.red;
     }
 
@@ -92,7 +92,7 @@ public class FloatingText : MonoBehaviour
         text.position = human.position;
         placementypos = text.position;
         placementypos.y += 1;
-        placementypos.x -= 2;
+        placementypos.x -= 1;
         text.position = placementypos;
 
         // Text Attributes
@@ -106,11 +106,11 @@ public class FloatingText : MonoBehaviour
         text.position = human.position;
         placementypos = text.position;
         placementypos.y += 1;
-        placementypos.x -= 2;
+        placementypos.x -= 1;
         text.position = placementypos;
 
         // Text Attributes
-        floattxt.text = "If the scene is safe place your hands on the icon below";
+        floattxt.text = "Use the phone to call the emergency services";
         floattxt.color = Color.red;
         
     }
@@ -120,11 +120,11 @@ public class FloatingText : MonoBehaviour
         text.position = human.position;
         placementypos = text.position;
         placementypos.y += 1;
-        placementypos.x -= 2;
+        placementypos.x -= 1;
         text.position = placementypos;
 
         // Text Attributes
-        floattxt.text = "If the scene is safe place your hands on the icon below";
+        floattxt.text = "Tilt the victims head to open the airway";
         floattxt.color = Color.red;
         
     }
@@ -134,11 +134,11 @@ public class FloatingText : MonoBehaviour
         text.position = human.position;
         placementypos = text.position;
         placementypos.y += 1;
-        placementypos.x -= 2;
+        placementypos.x -= 1;
         text.position = placementypos;
 
         // Text Attributes
-        floattxt.text = "If the scene is safe place your hands on the icon below";
+        floattxt.text = "Perfrom Compressions at a rate of 100 per minute (Stayin Alive, Bee Gees)";
         floattxt.color = Color.red;
         
     }
@@ -148,11 +148,11 @@ public class FloatingText : MonoBehaviour
         text.position = human.position;
         placementypos = text.position;
         placementypos.y += 1;
-        placementypos.x -= 2;
+        placementypos.x -= 1;
         text.position = placementypos;
 
         // Text Attributes
-        floattxt.text = "If the scene is safe place your hands on the icon below";
+        floattxt.text = "Perfrom 30 Compressions at a rate of 100 per minute (Stayin Alive, Bee Gees) followed by 2 rescue breaths";
         floattxt.color = Color.red;
         
     }

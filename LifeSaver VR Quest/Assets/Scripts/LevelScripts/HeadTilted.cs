@@ -22,4 +22,11 @@ public class HeadTilted : MonoBehaviour
             }
         }
     }
+
+    void OnTriggerEnter(Collider other) {
+        if (completion.OpenTheAirway == true){
+            completion.OpenTheAirway = false;
+            completion.PerformFullCPR = true;
+        }
+    }
 }
