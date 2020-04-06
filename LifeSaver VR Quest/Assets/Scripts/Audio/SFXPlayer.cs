@@ -46,8 +46,8 @@ public class SFXPlayer : MonoBehaviour
     }
 
     public void PlayPickup(){
-        PickupGO.SetActive(true);
-        PickupGO.SetActive(false);
+        AudioClip cl = Pickup.GetComponent<AudioClip>();
+        Pickup.PlayOneShot(cl);
     }
 }
 

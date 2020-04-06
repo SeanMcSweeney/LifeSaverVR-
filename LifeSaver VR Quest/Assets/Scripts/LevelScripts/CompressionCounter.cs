@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 // count compressions and calculate rate
 public class CompressionCounter : MonoBehaviour
 {
@@ -12,12 +13,17 @@ public class CompressionCounter : MonoBehaviour
     public int CompressionsRate;
     public int CompressionsCountFull;
     public int CompressionsRateFull;
+    public int totalloops;
+    public int finalScore;
     Completion completion;
+    Score score;
+    
 
 
     void Start()
     {
         completion = GameObject.Find("Completion").GetComponent<Completion>();
+        score = GameObject.Find("Completion").GetComponent<Score>();
         TimerPaused = true;
         rescueBreaths = false;
     }
@@ -31,6 +37,18 @@ public class CompressionCounter : MonoBehaviour
             }
             if(completion.PerformFullCPR == true){
                 FullCprCompressionsRateTimer();
+            }
+        }
+        if (totalloops >= 2){
+            finalScore = score.TotalScore;
+            PlayerPrefs.SetInt("FinalScore", finalScore);
+            if (finalScore <= 4){
+                SceneManager.LoadScene("Fail", LoadSceneMode.Additive);
+                SceneManager.LoadScene("Fail");
+            }
+            else if (finalScore >= 4){
+                SceneManager.LoadScene("Congrats", LoadSceneMode.Additive);
+                SceneManager.LoadScene("Congrats");
             }
         }
     }
@@ -68,7 +86,9 @@ public class CompressionCounter : MonoBehaviour
     public void CheckForRescueBreaths(){
         rescueBreaths = true;
         if (rescueBreaths == false){
+            totalloops += 1;
             TimerPaused = false;
         }
     }
+
 }

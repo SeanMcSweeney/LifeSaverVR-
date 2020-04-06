@@ -416,6 +416,7 @@
      <Compile Include="Assets\Scripts\LevelScripts\CompressionCounter.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\HeadTilted.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\IntroScript.cs" />
+     <Compile Include="Assets\Scripts\LevelScripts\RescueBreathCount.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\SceneIsSafe.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\SceneNotSafeGlass.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\ShakeChecker.cs" />
@@ -443,6 +444,7 @@
      <Compile Include="Assets\Scripts\SceneNotSafe.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
      <Compile Include="Assets\Scripts\ScriptsForProblems\TriggerDelay.cs" />
+     <Compile Include="Assets\Scripts\ServerConnect\SendScore.cs" />
      <Compile Include="Assets\Scripts\Steps.cs" />
      <Compile Include="Assets\Scripts\Training\SceneSafetyTraining\CompletionTraining.cs" />
      <Compile Include="Assets\Scripts\Training\SceneSafetyTraining\NoSS.cs" />

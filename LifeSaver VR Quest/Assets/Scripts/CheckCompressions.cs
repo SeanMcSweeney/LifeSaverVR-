@@ -21,7 +21,7 @@ public class CheckCompressions : MonoBehaviour
         counterCompressions += 1;
         }
         else if (completion.PerformCompressionsOnly == true){
-        //Debug("Entered");
+        counterCompressions += 1;
         }
     }
 

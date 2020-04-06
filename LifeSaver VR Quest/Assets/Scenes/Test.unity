@@ -20715,6 +20715,7 @@ GameObject:
   - component: {fileID: 1245143393}
   - component: {fileID: 1245143394}
   - component: {fileID: 1245143395}
+  - component: {fileID: 1245143396}
   m_Layer: 0
   m_Name: Completion
   m_TagString: Untagged
@@ -20769,6 +20770,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 455ac1a5bafa6a440a961c9505497ca3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  compressionsCount: 0
+  compressionsRate: 0
+  pickupplayercount: 0
 --- !u!114 &1245143389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20807,6 +20811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6ea9ed3f3ee6af4c88a42ed46f34c30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TotalScore: 0
 --- !u!114 &1245143392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20864,6 +20869,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53384705123e154458c3fbe9cca7dc1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1245143396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245143385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18ee848f5a19b8346a4c3353ec1641a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
+  timerint: 0
+  TimerPaused: 0
+  rescueBreaths: 0
+  CompressionsCount: 0
+  CompressionsRate: 0
+  CompressionsCountFull: 0
+  CompressionsRateFull: 0
+  totalloops: 0
+  finalScore: 0
 --- !u!1 &1248146429
 GameObject:
   m_ObjectHideFlags: 0
@@ -25091,6 +25118,7 @@ GameObject:
   - component: {fileID: 1380737248}
   - component: {fileID: 1380737246}
   - component: {fileID: 1380737328}
+  - component: {fileID: 1380737459}
   m_Layer: 0
   m_Name: head
   m_TagString: Untagged
@@ -26431,6 +26459,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62b616bf8fd94b047b60faf05a52000d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  counterCompressions: 0
+  rateofCompressions: 0
 --- !u!1 &1380737327
 GameObject:
   m_ObjectHideFlags: 0
@@ -28476,6 +28506,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1380737459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380737245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0333945895d42f043a2fb47f80bdafe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalBreaths: 0
 --- !u!1 &1382570925
 GameObject:
   m_ObjectHideFlags: 0

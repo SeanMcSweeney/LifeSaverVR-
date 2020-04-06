@@ -8,37 +8,63 @@ public class Steps : MonoBehaviour
 {
     public int compressionsCount;
     public int compressionsRate;
+    public int pickupplayercount;
     Completion completion;
+    CompressionCounter cc;
+    SFXPlayer SFX;
+    Score score;
+    void Start(){
+        cc = GameObject.Find("Completion").GetComponent<CompressionCounter>();
+        SFX = GameObject.Find("Completion").GetComponent<SFXPlayer>();
+        score = GameObject.Find("Completion").GetComponent<Score>();
+    }
     void Update()
     {
     completion = GameObject.Find("Completion").GetComponent<Completion>();
     if (completion.Intro == true){
+        SFX.PlayPickup();
         Intro();
     }
     if (completion.SceneSafety == true){
+        SFX.PlayPickup();
         SceneSafety();
     }
     else if (completion.ShakeAndShout == true){
+        score.TotalScore += 2;
+        SFX.PlayPickup();
         ShakeAndShout();
     }
     else if (completion.CheckForBreathing == true){
+        score.TotalScore += 2;
+        SFX.PlayPickup();
         CheckForBreathing();
     }
     else if (completion.CallForHelp == true){
+        score.TotalScore += 2;
+        SFX.PlayPickup();
         CallForHelp();
     }
     else if (completion.OpenTheAirway == true){
+        score.TotalScore += 2;
+        SFX.PlayPickup();
         OpenTheAirway();
     }
     else if (completion.PerformCompressionsOnly == true){
+        score.TotalScore += 2;
+        SFX.PlayPickup();
         PerformCompressionsOnly();
     }
     else if (completion.PerformFullCPR == true){
+        score.TotalScore += 2;
+        SFX.PlayPickup();
         PerformFullCPR();
     }
     else{
         NoScene();
     }
+
+    compressionsCount = cc.CompressionsCount;
+    compressionsRate = cc.CompressionsRate;
     }
 
     void Intro()
@@ -94,7 +120,7 @@ public class Steps : MonoBehaviour
     void PerformFullCPR()
     {
     Text mytext = GameObject.Find("TV Middle/Text/Text").GetComponent<Text>();
-    mytext.text = "Please Perform Rescue Breaths Followed By Compressions";
+    mytext.text = "Please Perform Rescue Breaths Followed By Compressions" + Environment.NewLine + "Total Compressions " + compressionsCount + Environment.NewLine + "Compressions Rate " + compressionsRate;
     Panels panel = GameObject.Find("Completion").GetComponent<Panels>();
     panel.BeginFullCPRPanel();
     }

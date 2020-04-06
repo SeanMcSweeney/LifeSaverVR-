@@ -9,16 +9,23 @@ using UnityEngine.SceneManagement;
 public class SceneNotSafe : MonoBehaviour
 {
     private Completion completion;
+    Score score;
     void Update()
     {
         completion = GameObject.Find("Completion").GetComponent<Completion>();
+        score = GameObject.Find("Completion").GetComponent<Score>();
     }
     void OnTriggerEnter(Collider other) {
         if (completion.SceneNotSafe == true){
+            score.TotalScore = 10;
+            PlayerPrefs.SetInt("FinalScore", score.TotalScore);
             SceneManager.LoadScene("Congrats", LoadSceneMode.Additive);
             SceneManager.LoadScene("Congrats");
+    
         }
         else{
+            score.TotalScore = 0;
+            PlayerPrefs.SetInt("FinalScore", score.TotalScore);
             SceneManager.LoadScene("Fail", LoadSceneMode.Additive);
             SceneManager.LoadScene("Fail");
         }
