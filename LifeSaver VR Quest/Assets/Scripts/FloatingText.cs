@@ -51,7 +51,7 @@ public class FloatingText : MonoBehaviour
         text.position = human.position;
         placementypos = text.position;
         placementypos.y += 1;
-        placementypos.x -= 1;
+        placementypos.x -= 2;
         text.position = placementypos;
 
         // Text Attributes
@@ -65,7 +65,7 @@ public class FloatingText : MonoBehaviour
         text.position = human.position;
         placementypos = text.position;
         placementypos.y += 1;
-        placementypos.x -= 1;
+        placementypos.x -= 2;
         text.position = placementypos;
 
         // Text Attributes
@@ -79,7 +79,7 @@ public class FloatingText : MonoBehaviour
         text.position = human.position;
         placementypos = text.position;
         placementypos.y += 1;
-        placementypos.x -= 1;
+        placementypos.x -= 2;
         text.position = placementypos;
 
         // Text Attributes
@@ -92,7 +92,7 @@ public class FloatingText : MonoBehaviour
         text.position = human.position;
         placementypos = text.position;
         placementypos.y += 1;
-        placementypos.x -= 1;
+        placementypos.x -= 2;
         text.position = placementypos;
 
         // Text Attributes
@@ -106,7 +106,7 @@ public class FloatingText : MonoBehaviour
         text.position = human.position;
         placementypos = text.position;
         placementypos.y += 1;
-        placementypos.x -= 1;
+        placementypos.x -= 2;
         text.position = placementypos;
 
         // Text Attributes
@@ -120,7 +120,7 @@ public class FloatingText : MonoBehaviour
         text.position = human.position;
         placementypos = text.position;
         placementypos.y += 1;
-        placementypos.x -= 1;
+        placementypos.x -= 2;
         text.position = placementypos;
 
         // Text Attributes
@@ -134,7 +134,7 @@ public class FloatingText : MonoBehaviour
         text.position = human.position;
         placementypos = text.position;
         placementypos.y += 1;
-        placementypos.x -= 1;
+        placementypos.x -= 2;
         text.position = placementypos;
 
         // Text Attributes
@@ -148,7 +148,7 @@ public class FloatingText : MonoBehaviour
         text.position = human.position;
         placementypos = text.position;
         placementypos.y += 1;
-        placementypos.x -= 1;
+        placementypos.x -= 2;
         text.position = placementypos;
 
         // Text Attributes

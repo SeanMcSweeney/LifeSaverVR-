@@ -5,6 +5,10 @@ using UnityEngine;
 public class SceneNotSafeGlass : MonoBehaviour
 {
     GameObject Glass;
+    void Start() {
+        Glass = GameObject.Find("Glass");
+        Glass.SetActive(false);
+    }
     void Update()
     {
         Completion completion = GameObject.Find("Completion").GetComponent<Completion>();
@@ -14,7 +18,6 @@ public class SceneNotSafeGlass : MonoBehaviour
     }
 
     void SceneSafetyDropGlass(){
-        Glass = GameObject.Find("Level/Glass");
         Glass.SetActive(true);
     }
 }
