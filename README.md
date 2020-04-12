@@ -13,8 +13,8 @@ LifeSaver is a VR simulation which focuses on training and testing users in the 
 
 To use LifeSaver in its full capacity the following is required.
 * Oculus Quest VR Headset
-* Handtracking Device (ex. LeapMotion)
-* VR Compatible System
+* Handtracking Feature Enabled
+* Large Space to Navigate
 
 <p align="center">
 <img src="images/heartbeatlogonobg.png" width="300" height="300">
