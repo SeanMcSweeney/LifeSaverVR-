@@ -27,8 +27,8 @@ public class No : MonoBehaviour
     else if (completion.ShakeAndShout == true){
     }
     else if (completion.CheckForBreathing == true){
-        SceneManager.LoadScene("Fail", LoadSceneMode.Additive);
-        SceneManager.LoadScene("Fail");
+        completion.CheckForBreathing = false;
+        completion.CallForHelp = true;
     }
     else if (completion.CallForHelp == true){
     }

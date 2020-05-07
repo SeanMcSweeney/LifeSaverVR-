@@ -12,8 +12,8 @@ public class CheckBreathing : MonoBehaviour
     }
     void OnTriggerEnter(Collider other) {
         if (completion.CheckForBreathing == true){
-            completion.CheckForBreathing = false;
-            completion.CallForHelp = true;
+            //completion.CheckForBreathing = false;
+            //completion.CallForHelp = true;
         }
     }
 }

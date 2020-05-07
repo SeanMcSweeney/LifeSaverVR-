@@ -20758,6 +20758,13 @@ MonoBehaviour:
   PerformCompressionsOnly: 0
   PerformFullCPR: 0
   SceneNotSafe: 0
+  SceneSafetyPoints: 0
+  ShakeAndShoutPoints: 0
+  CheckForBreathingPoints: 0
+  CallForHelpPoints: 0
+  OpenTheAirwayPoints: 0
+  PerformCompressionsOnlyPoints: 0
+  PerformFullCPRPoints: 0
 --- !u!4 &1245143387
 Transform:
   m_ObjectHideFlags: 0
@@ -24846,8 +24853,10 @@ GameObject:
   - component: {fileID: 1380737248}
   - component: {fileID: 1380737246}
   - component: {fileID: 1380737459}
-  - component: {fileID: 1380737250}
   - component: {fileID: 1380737254}
+  - component: {fileID: 1380737256}
+  - component: {fileID: 1380737262}
+  - component: {fileID: 1380737250}
   m_Layer: 0
   m_Name: head
   m_TagString: Untagged
@@ -25091,6 +25100,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1380737256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380737245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80e3c7b5952d6c04893b97f13fccbcdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1380737257
 GameObject:
   m_ObjectHideFlags: 0
@@ -25170,6 +25191,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!135 &1380737262
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380737245}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.12
+  m_Center: {x: -0.1, y: 0, z: 0}
 --- !u!1 &1380737263
 GameObject:
   m_ObjectHideFlags: 0
@@ -25907,6 +25941,7 @@ GameObject:
   - component: {fileID: 1380711691}
   - component: {fileID: 1380737324}
   - component: {fileID: 1380737326}
+  - component: {fileID: 1380737328}
   - component: {fileID: 1380737336}
   m_Layer: 0
   m_Name: spine_03
@@ -25976,6 +26011,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1380737328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380737323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9eaee66d1a33c40a05f7d8711d7170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1380737329
 GameObject:
   m_ObjectHideFlags: 0

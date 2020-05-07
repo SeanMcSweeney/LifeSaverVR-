@@ -23,7 +23,7 @@ public class CompressionCounter : MonoBehaviour
     void Start()
     {
         completion = GameObject.Find("Completion").GetComponent<Completion>();
-        score = GameObject.Find("Completion").GetComponent<Score>();
+        score = GameObject.Find("Score").GetComponent<Score>();
         TimerPaused = true;
         rescueBreaths = false;
     }

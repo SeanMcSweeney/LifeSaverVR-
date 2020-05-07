@@ -95,8 +95,6 @@ d3c76b14a25eebd3a3323dd43297919c Unity.TextMeshPro.dll:TMPro.TMP_InputField
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:OculusSampleFramework.PauseOnInputLoss
 07bbff34ca5d14ed9bffb0376c5ede5f Assembly-CSharp.dll:.GuardianBoundaryEnforcer
 36ae7cc3e989c6df9341b63a0b042603 Assembly-CSharp.dll:Oculus.Platform.Samples.VrBoardGame.BoardPosition
-71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
-71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.TrainingSceneSwitch
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -241,7 +239,7 @@ b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.LoadSceneText
 9edf0788742c31d8eaaf32cf4feac747 Oculus.VR.dll:.OVRResetOrientation
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Oculus.Platform.Samples.VrHoops.P2PNetworkBall
-5d3daf024165de68a8d232e7c5df3ed0 Assembly-CSharp.dll:.Completion
+db16683553822c0f4b6c3b81967f4d3c Assembly-CSharp.dll:.Completion
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
 22dc216204f0e65ce2161bd7b6ecf06b Oculus.VR.dll:.OVRScreenFade
 fe9e00068283ef13b28a703001e08184 Assembly-CSharp.dll:OculusSampleFramework.GrabManager

@@ -23,8 +23,8 @@ public class ShakeChecker : MonoBehaviour
         }
         if (counter <= 2){
             completion = GameObject.Find("Completion").GetComponent<Completion>();
-            completion.ShakeAndShout = false;
-            completion.CheckForBreathing = true;
+            //completion.ShakeAndShout = false;
+            //completion.CheckForBreathing = true;
         }
     }
     void OnTriggerEnter(Collider other)

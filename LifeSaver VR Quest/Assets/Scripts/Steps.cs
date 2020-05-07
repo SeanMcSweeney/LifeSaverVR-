@@ -30,32 +30,50 @@ public class Steps : MonoBehaviour
         SceneSafety();
     }
     else if (completion.ShakeAndShout == true){
-        score.TotalScore += 2;
+        if (completion.SceneSafetyPoints == false){
+            score.TotalScore += 2;
+            completion.SceneSafetyPoints = true;
+        }
         SFX.PlayPickup();
         ShakeAndShout();
     }
     else if (completion.CheckForBreathing == true){
-        score.TotalScore += 2;
+        if (completion.ShakeAndShoutPoints == false){
+            score.TotalScore += 2;
+            completion.ShakeAndShoutPoints = true;
+        }
         SFX.PlayPickup();
         CheckForBreathing();
     }
     else if (completion.CallForHelp == true){
-        score.TotalScore += 2;
+        if (completion.CheckForBreathingPoints == false){
+            score.TotalScore += 2;
+            completion.CheckForBreathingPoints = true;
+        }
         SFX.PlayPickup();
         CallForHelp();
     }
     else if (completion.OpenTheAirway == true){
-        score.TotalScore += 2;
+        if (completion.CallForHelpPoints == false){
+            score.TotalScore += 2;
+            completion.CallForHelpPoints = true;
+        }
         SFX.PlayPickup();
         OpenTheAirway();
     }
     else if (completion.PerformCompressionsOnly == true){
-        score.TotalScore += 2;
+        if (completion.OpenTheAirwayPoints == false){
+            score.TotalScore += 2;
+            completion.OpenTheAirwayPoints = true;
+        }
         SFX.PlayPickup();
         PerformCompressionsOnly();
     }
     else if (completion.PerformFullCPR == true){
-        score.TotalScore += 2;
+        if (completion.OpenTheAirwayPoints == false){
+            score.TotalScore += 2;
+            completion.OpenTheAirwayPoints = true;
+        }
         SFX.PlayPickup();
         PerformFullCPR();
     }

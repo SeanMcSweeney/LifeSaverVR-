@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
+    x: 1920
     y: 43
     width: 1920
     height: 997
@@ -113,10 +113,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 583, y: 248}
-  m_MaxSize: {x: 12008, y: 8048}
+  m_MinSize: {x: 581, y: 224}
+  m_MaxSize: {x: 12006, y: 8024}
   vertical: 0
-  controlID: 46
+  controlID: 13
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,10 +164,10 @@ MonoBehaviour:
     y: 0
     width: 1198
     height: 947
-  m_MinSize: {x: 104, y: 248}
-  m_MaxSize: {x: 4004, y: 8048}
+  m_MinSize: {x: 104, y: 224}
+  m_MaxSize: {x: 4004, y: 8024}
   vertical: 1
-  controlID: 80
+  controlID: 26
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,8 +187,8 @@ MonoBehaviour:
     y: 0
     width: 1198
     height: 525
-  m_MinSize: {x: 104, y: 124}
-  m_MaxSize: {x: 4004, y: 4024}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -243,8 +243,8 @@ MonoBehaviour:
     y: 0
     width: 406
     height: 947
-  m_MinSize: {x: 277, y: 74}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -386,7 +386,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 316
+    x: 2236
     y: 73
     width: 1194
     height: 505
@@ -397,9 +397,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.05262845, y: 1.2910192, z: 6.7169185}
+    m_Target: {x: -0.7442677, y: -0.3399101, z: 6.9477086}
     speed: 2
-    m_Value: {x: 0.05262845, y: 1.2910192, z: 6.7169185}
+    m_Value: {x: -0.7442677, y: -0.3399101, z: 6.9477086}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -427,13 +427,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.0318055, y: -0.0030014487, z: 0.000095639516, w: 0.9994896}
+    m_Target: {x: 0.3556462, y: -0.07419285, z: 0.028334772, w: 0.93124026}
     speed: 2
-    m_Value: {x: 0.0318055, y: -0.0030014487, z: 0.000095639516, w: 0.9994896}
+    m_Value: {x: 0.3556462, y: -0.07419285, z: 0.028334772, w: 0.93124026}
   m_Size:
-    m_Target: 4.6695867
+    m_Target: 2.6592505
     speed: 2
-    m_Value: 4.6695867
+    m_Value: 2.6592505
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -466,7 +466,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 316
+    x: 2236
     y: 73
     width: 1194
     height: 505
@@ -546,7 +546,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: 1920
     y: 73
     width: 314
     height: 927
@@ -556,7 +556,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: eaf6ffff66f7ffff8af7ffff5afaffff68faffff76faffff82faffff92faffffdefbffff
+      m_ExpandedIDs: f8e2ffff74e3ffff98e3ffff60e6ffff6ee6ffff7ce6ffff88e6ffff98e6ffffb4e7ffff30e8ffff54e8ffff1cebffff2aebffff38ebffff44ebffff54ebffffeeecffff6aedffff8cedffff94edffff9eedffffa8edffffb4edffffbeedffff26eeffffa2eeffffc6eeffff8ef1ffff9cf1ffffaaf1ffffb6f1ffffc6f1ffff58f3ffffd4f3fffff6f3fffffef3ffff08f4ffff12f4ffff1ef4ffff28f4ffff4af5ffffc6f5ffffe8f5fffff0f5fffffaf5ffff04f6ffff10f6ffff1af6ffffe8f6ffff64f7ffff8af7ffff54faffff62faffff70faffff7cfaffff8cfaffffdefbffffe2a900001aaf00008eaf0000a4af0000a6af0000b2af0000beaf0000caaf00000a460100424b0100b84b0100ce4b0100d04b0100dc4b0100e84b0100f44b010056e201008ee701001ce801002ae8010036e8010042e8010024ec0100b4dd0200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -627,7 +627,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 316
+    x: 2236
     y: 598
     width: 1194
     height: 402
@@ -644,20 +644,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 54
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: 54
   m_LastProjectPath: F:\GitHub\LifeSaverVR-\LifeSaver VR Quest
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: f62e0000
-    m_LastClickedID: 12022
-    m_ExpandedIDs: 00000000e42b00009c2c0000f62e0000683700008a37000050400000
+    m_SelectedIDs: e42b0000
+    m_LastClickedID: 11236
+    m_ExpandedIDs: 00000000e42b00009c2c0000f62e0000683700008a3700005040000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -710,9 +710,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 365c0000
-    m_LastClickedInstanceID: 23606
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300008c43000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -761,7 +761,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 316
+    x: 2236
     y: 598
     width: 1194
     height: 402
@@ -787,7 +787,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1514
+    x: 3434
     y: 73
     width: 404
     height: 927

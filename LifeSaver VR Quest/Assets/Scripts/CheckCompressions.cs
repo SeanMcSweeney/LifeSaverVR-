@@ -13,15 +13,17 @@ public class CheckCompressions : MonoBehaviour
     public int rateofCompressions;
     void Start(){
         completion = GameObject.Find("Completion").GetComponent<Completion>();
-        CC = GameObject.Find("Completion").GetComponent<CompressionCounter>();
+        CC = GameObject.Find("CompressionsCounter").GetComponent<CompressionCounter>();
     }
     void OnTriggerEnter(Collider other)
     {
         if (completion.PerformFullCPR == true){
         counterCompressions += 1;
+        CC.CompressionsCount = counterCompressions;
         }
         else if (completion.PerformCompressionsOnly == true){
         counterCompressions += 1;
+        CC.CompressionsCount = counterCompressions;
         }
     }
 
